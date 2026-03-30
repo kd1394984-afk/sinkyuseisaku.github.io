@@ -1,0 +1,2589 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    z-index: 100;
+}
+
+.mainvisual{
+    background-image: url(../img/main_background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0 0 0;
+}
+
+h1{
+    text-align: center;
+    width: 70%;
+}
+
+h1 img{
+    width: 100%;
+}
+
+.mainphoto_inner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.mainphoto{
+    background-image: url(../img/irasuto_bousi.png),url(../img/irasuto_nabe.png),url(../img/irasuto_otama.png),url(../img/irasuto_tebukuro.png);
+    background-repeat: no-repeat;
+    background-size: 30%,30%,35%,30%;
+    background-position: -2% -60%,-3% 120%,105% -150%,102% 120%;
+}
+
+.mainphoto img{
+    width: 55%;
+    height: auto;
+}
+
+.otanosimi_btn img{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 15%;
+    height: auto;
+}
+
+.pagetop_btn img{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    position: fixed;
+    z-index: 100;
+}
+
+h2{
+    position: relative;
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: 50px auto;
+}
+
+h2 p{
+    text-align: center;
+    font-size: 64px;
+    color: #cf1225;
+    font-weight: bolder;
+    padding: 0 0 10px 0;
+
+}
+
+h2 span{
+    font-size: 48px;
+}
+
+.rollingstock_maintxt{
+    position: relative;
+    justify-content: center;
+}
+
+.hatena img{ 
+    position: absolute;
+    top: 75px;
+    right: 160px;
+}
+
+.rollingstock{
+    position: relative;
+}
+
+.rollingstock_txt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #cf1225;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+}
+
+.rollingstock_txt2{
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.rollingstock_txt2_1{
+    margin: 15px 0 10px 0;
+}
+
+.rollingstock_txt2_2{
+    margin: 0 0 60px 0;
+}
+
+.sonaeru{
+    display: block;
+    width: 28%;
+}
+
+.sonaeru img{
+    width: 100%;
+    height: auto;
+}
+
+.kaitasu{
+    display: block;
+    width: 28%;
+}
+
+.kaitasu img{
+    width: 100%;
+    height: auto;
+}
+
+.taberu{
+    display: block;
+    width: 28%;
+}
+
+.taberu img{
+    width: 100%;
+    height: auto;
+}
+
+.rollingstock_irasuto_sita{
+    display: flex;
+    column-gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rollingstock_irasuto_ue{
+    display: flex;
+    column-gap: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow3_1{
+    transform: rotate(140deg);
+}
+
+.arrow3_1 img{
+    width: 170px;
+    height: auto;
+}
+
+.arrow3_2{
+    transform: rotate(-130deg);
+}
+
+.arrow3_2 img{
+    width: 170px;
+    height: auto;
+}
+
+.arrow3_3 img{
+    width: 170px;
+    height: auto;
+}
+
+.kyousousiri-zu{
+    position: relative;
+    background-color: #FFFDE6;
+    padding: 0 0 40px 0;
+    margin: 100px 0 0 0;
+    overflow-x: clip;
+}
+
+.kyousousiri-zu_maintxt{
+    text-align: center;
+}
+
+.kyousousiri-zu_maintxt p{
+    font-size: 20px;
+    color: #cf1225;
+    margin: 120px 0 0 0;
+    padding: 100px 0 0 0;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #cf1225;
+    padding: 20px 0 0 0;
+}
+
+.decoration_tarerukare-1{
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+
+.decoration_tarerukare-1 img{
+    width: 550px;
+    height: auto;
+}
+
+.kyousousiri-zu_omote{
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    padding: 90px 0 0 0;
+}
+
+.kyousousiri-zu_txt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #cf1225;
+    border-radius: 15px;
+    width: 160px;
+    height: 50px;
+}
+
+.kyousousiri-zu_txt2{
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.kyousousiri-zu_txt2_1{
+    padding: 25px 0 0 0;
+}
+
+.kyousousiri-zu_txt2_2{
+    padding: 15px 0 90px 0;
+}
+
+.kyousousiri-zu_sindan{
+    margin: 0 15%;
+    position: relative;
+    background-color: rgba(255, 216, 118, 0.3);
+}
+
+.kyousousiri-zu_sindan_txt{
+    text-align: center;
+}
+
+.kyousousiri-zu_sindan_txt1{
+    color: #cf1225;
+    font-size: 20px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 400px;
+}
+
+h4{
+    color: #cf1225;
+    font-size: 32px;
+    font-weight: bolder;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.kyousousiri-zu_sindan_txt2{
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+    padding: 35px 0 0 0;
+    line-height: 150%;
+}
+
+.arrow_setumei{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 215px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0 0 0 70%;
+}
+
+.arrow_setumei_yes{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.arrow_setumei_no{
+    display: flex;
+    align-items: center;
+}
+
+.kyousousiri-zu_sindan_zu{
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0 0 20px 0;
+}
+
+.kyousousiri-zu_sindan_zu img{
+    max-width:100%;
+    height: auto;
+}
+
+.decoration_kare-mini1{
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    transform: rotate(-50deg);
+}
+
+.decoration_kare-mini2{
+    position: absolute;
+    top: 1340px;
+    left: -60px;
+    transform: rotate(190deg);
+}
+
+.decoration_kare-mini3{
+    position: absolute;
+    top: 1670px;
+    left: 0;
+    transform: rotate(130deg);
+}
+
+.decoration_kare-mini4{
+    position: absolute;
+    top: 2000px;
+    left: -30px;
+    transform: rotate(-50deg);
+}
+
+.decoration_kare-mini5{
+    position: absolute;
+    top: 1000px;
+    right: 0;
+}
+
+.decoration_kare-mini6{
+    position: absolute;
+    top: 1340px;
+    right: -80px;
+}
+
+.decoration_kare-mini7{
+    position: absolute;
+    top: 1670px;
+    right: 0;
+    transform: rotate(-50deg);
+}
+
+.decoration_kare-mini8{
+    position: absolute;
+    top: 2000px;
+    right: -30px;
+    transform: rotate(190deg);
+}
+
+.kyousousiri-zu_kekka_txt1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #cf1225;
+    text-align: center;
+    margin: 100px 0 35px 0;
+}
+
+.kyousousiri-zu_kekka_erabu{
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    padding: 0 0 40px 0;
+    margin: 0 0 100px 0;
+}
+
+.kyousousiri-zu_kekka_erabu img{
+    width: 110px;
+    height: auto;
+}
+
+.kyousousiri-zu_kekka_btn_a:hover{
+    transform: translateY(-5px);
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.kyousousiri-zu_kekka_btn_b:hover{
+    transform: translateY(-5px);
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.kyousousiri-zu_kekka_btn_c:hover{
+    transform: translateY(-5px);
+    transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.kyousousiri-zu_kekkabetu{
+    display: flex;
+    flex-direction: column;
+}
+
+.kyousousiri-zu_kekkakotira{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #cf1225;
+    margin: 0 0 20px 0;
+}
+
+/* A結果 */
+.kyousousiri-zu_kekka_a{
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 30px auto 10px auto;
+    position: relative;
+}
+
+.decoration_tarerukare-2{
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.kyousousiri-zu_kekka_a_inner{
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+.kyousousiri-zu_kekka_a_setumei{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0 60px 70px;
+}
+
+.kyousousiri-zu_kekka_a_txt{
+    display: flex;
+    align-items: center;
+}
+
+.kyousousiri-zu_kekka_a_txt dl{
+    color: #cf1225;
+    font-size: 150px;
+    font-weight: bolder;
+    margin: 0 20px 0 0;
+}
+
+.kyousousiri-zu_kekka_a_txt1 dt{
+    color: #cf1225;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+    line-height: 150%;
+}
+
+.kyousousiri-zu_kekka_a_txt1 dd{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.kyousousiri-zu_kekka_a_btn{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 130px;
+    row-gap: 20px;
+}
+
+.kyousousiri-zu_kekka_a_txt1_btn1 p{
+    color: #fff;
+    background-image: url(../img/btn_package_red.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 44px;
+    z-index: 2;
+    padding: 0 0 0 12px;
+}
+
+.kyousousiri-zu_kekka_a_txt1_btn2 p{
+    position: relative;
+    color: #fff;
+    background-image: url(../img/btn_azi_red.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 44px;
+    z-index: 2;
+}
+
+.omote_syouboukare-gazou img{
+    width: 280px;
+    margin: 0 0 0 30px;
+}
+
+.photo_syouboukare- img{
+    width: 400px;
+}
+
+.photo_syouboukare-{
+    position: absolute;
+    top: 290px;
+    right: 170px;
+}
+
+.tag_a{
+    position: absolute;
+    top: 135px;
+    right: -75px;
+}
+
+.buy_a{
+    position: relative;
+    background-image: url(../img/kyara_jyagaimo2.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 50% 0;
+}
+
+.buy_a_txt{
+    margin: 0 auto;
+    color: #fff;
+    background-color: #cf1225;
+    width: 200px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto 0 auto;
+}
+
+.buy_a_txt:hover{
+    background-color: #fa2a3f;
+}
+
+.buy_a_te img{
+    width: 10px;
+}
+
+.buy_a_te{
+    position: absolute;
+    top: 55px;
+    left: 51%;
+}
+
+/* B結果 */
+.kyousousiri-zu_kekka_b{
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 30px auto 10px auto;
+    position: relative;
+}
+
+.decoration_tarerukare-2{
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.kyousousiri-zu_kekka_b_inner{
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+.kyousousiri-zu_kekka_b_setumei{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 60px 70px;
+}
+
+.kyousousiri-zu_kekka_b_txt{
+    display: flex;
+    align-items: center;
+}
+
+.kyousousiri-zu_kekka_b_txt dl{
+    color: #0053C5;
+    font-size: 150px;
+    font-weight: bolder;
+    margin: 0 20px 0 0;
+}
+
+.kyousousiri-zu_kekka_b_txt1 dt{
+    color: #0053C5;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+    line-height: 150%;
+}
+
+.kyousousiri-zu_kekka_b_txt1 dd{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.kyousousiri-zu_kekka_b_btn{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 130px;
+    row-gap: 20px;
+}
+
+.kyousousiri-zu_kekka_b_txt1_btn1 p{
+    color: #fff;
+    background-image: url(../img/btn_package_blue.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 44px;
+    padding: 0 0 0 12px;
+    z-index: 2;
+}
+
+.kyousousiri-zu_kekka_b_txt1_btn2 p{
+    position: relative;
+    color: #fff;
+    background-image: url(../img/btn_azi_blue.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 44px;
+}
+
+.omote_keisatukare-gazou img{
+    width: 280px;
+    margin: 0 0 0 150px;
+}
+
+.photo_keisatukare- img{
+    width: 400px;
+}
+
+.photo_keisatukare-{
+    position: absolute;
+    top: 290px;
+    right: 170px;
+}
+
+.tag_b{
+    position: absolute;
+    top: 135px;
+    right: -75px;
+}
+
+.buy_b{
+    position: relative;
+    background-image: url(../img/kyara_ninzin2.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 50% 0;
+}
+
+.buy_b_txt{
+    color: #fff;
+    background-color: #0053C5;
+    width: 200px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    margin: 70px auto 0 auto;
+} 
+
+.buy_b_txt:hover{
+    background-color: #1f6bd6;
+}
+
+.buy_b_te img{
+    width: 25px;
+}
+
+.buy_b_te{
+    position: absolute;
+    top: 55px;
+    left: 49.5%;
+}
+
+/* C結果 */
+.kyousousiri-zu_kekka_c{
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 30px auto 10px auto;
+    position: relative;
+}
+
+.decoration_tarerukare-2{
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.kyousousiri-zu_kekka_c_inner{
+    display: flex;
+    margin: 30px 0 30px 0;
+}
+
+.kyousousiri-zu_kekka_c_setumei{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 60px 70px;
+}
+
+.kyousousiri-zu_kekka_c_txt{
+    display: flex;
+    align-items: center;
+}
+
+.kyousousiri-zu_kekka_c_txt dl{
+    color: #22A8E1;
+    font-size: 150px;
+    font-weight: bolder;
+    margin: 0 20px 0 0;
+}
+
+.kyousousiri-zu_kekka_c_txt1 dt{
+    color: #22A8E1;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+    line-height: 150%;
+}
+
+.kyousousiri-zu_kekka_c_txt1 dd{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.kyousousiri-zu_kekka_c_txt1_btn1 p{
+    color: #fff;
+    background-image: url(../img/btn_package_lightblue.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 44px;
+    padding: 0 0 0 12px;
+    z-index: 2;
+}
+
+.kyousousiri-zu_kekka_c_txt1_btn2 p{
+    position: relative;
+    color: #fff;
+    background-image: url(../img/btn_azi_lightblue.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 44px;
+    z-index: 2;
+}
+
+.omote_sensuikare-gazou img{
+    width: 280px;
+    margin: 0 0 0 30px;
+}
+
+.photo_sensuikare- img{
+    width: 440px;
+}
+
+.photo_sensuikare-{
+    position: absolute;
+    top: 270px;
+    right: 150px;
+}
+
+.tag_c{
+    position: absolute;
+    top: 135px;
+    right: -75px;
+}
+
+.buy_c{
+    position: relative;
+    background-image: url(../img/kyara_tamanegi2.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 50% 0;
+}
+
+.buy_c_txt{
+    margin: 0 auto;
+    color: #fff;
+    background-color: #22A8E1;
+    width: 200px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto 0 auto;
+}
+
+.buy_c_txt:hover{
+    background-color: #53c6ff;
+}
+
+.buy_c_te img{
+    width: 60px;
+}
+
+.buy_c_te{
+    position: absolute;
+    top: 60px;
+    left: 48%;
+}
+
+/* パッケージA */
+.package_syouboukare-{
+    display: flex;
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    column-gap: 60px;
+    padding: 60px 0;
+}
+
+.package_syouboukare-omote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package_syouboukare-omote img{
+    width: 350px;
+    height: auto;
+}
+
+.package_syouboukare-omote p{
+    margin: 0 0 20px 0;
+    display: flex;
+    color: #623a07;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_syouboukare-ura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+
+.package_syouboukare-ura img{
+    width: 400px;
+    height: auto;
+}
+
+.package_syouboukare-ura p{
+    margin: 0 0 20px 0;
+    display: flex;
+    color: #623a07;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_syouboukare-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  z-index: 3;
+}
+
+.package_syouboukare-modal:target{
+  display: flex;
+}
+
+/* パッケージB */
+.package_keisatukare-{
+    display: flex;
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    column-gap: 60px;
+    padding: 60px 0;
+}
+
+.package_keisatukare-omote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package_keisatukare-omote img{
+    width: 350px;
+    height: auto;
+}
+
+.package_keisatukare-omote p{
+    margin: 0 0 20px 0;
+    display: flex;
+    color: #623a07;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_keisatukare-ura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+
+.package_keisatukare-ura img{
+    width: 400px;
+    height: auto;
+}
+
+.package_keisatukare-ura p{
+    margin: 0 0 20px 0;
+    display: flex;
+    color: #623a07;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_keisatukare-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  z-index: 3;
+}
+
+.package_keisatukare-modal:target{
+  display: flex;
+}
+
+/* パッケージC */
+.package_sensuikare-{
+    display: flex;
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    column-gap: 60px;
+    padding: 60px 0;
+}
+
+.package_sensuikare-omote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package_sensuikare-omote img{
+    width: 350px;
+    height: auto;
+}
+
+.package_sensuikare-omote p{
+    margin: 0 0 20px 0;
+    display: flex;
+    color: #623a07;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_sensuikare-ura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 0;
+}
+
+.package_sensuikare-ura img{
+    width: 400px;
+    height: auto;
+}
+
+.package_sensuikare-ura p{
+    margin: 0 0 20px 0;
+    display: flex;
+    color: #623a07;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.package_sensuikare-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  z-index: 3;
+}
+
+.package_sensuikare-modal:target{
+  display: flex;
+}
+
+/* パッケージばつボタン */
+.package_modal-wrapper{
+    position: relative;
+}
+
+.package_close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+/* 味の感想A */
+.azi_syouboukare-{
+    overflow: hidden;
+    position: relative;
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.azi_syouboukare- p{
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 630px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azi_syouboukare-txt1{
+    margin: 0 0 30px 0;
+}
+
+.azi_syouboukare-hukidasi1{
+    position: absolute;
+    top: 100px;
+    right: 160px;
+    transform: rotate(180deg);
+}
+
+.azi_syouboukare-hukidasi2{
+    position: absolute;
+    bottom: 170px;
+    left: 160px;
+}
+
+.azi_syouboukare-ninzin img{
+    position: absolute;
+    top: 70px;
+    right: -40px;
+    width: 150px;
+    height: auto;
+    transform: rotate(-15deg);
+    overflow: hidden;
+}
+
+.azi_syouboukare-tamanegi img{
+    position: absolute;
+    bottom: 70px;
+    left: -40px;
+    width: 190px;
+    height: auto;
+    transform: rotate(10deg);
+}
+
+.azi_syouboukare-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  z-index: 3;
+}
+
+.azi_syouboukare-modal:target{
+  display: flex;
+}
+
+.modal-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 500px;
+  max-height: 70%;
+  padding: 20px;
+  margin: auto;
+  overflow: scroll;
+  background-color: #FEFEFE;
+  border-radius: 5px;
+}
+
+/* 味の感想B */
+.azi_keisatukare-{
+    overflow: hidden;
+    position: relative;
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.azi_keisatukare- p{
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 630px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azi_keisatukare-txt1{
+    margin: 0 0 30px 0;
+}
+
+.azi_keisatukare-hukidasi1{
+    position: absolute;
+    top: 100px;
+    right: 160px;
+    transform: rotate(180deg);
+}
+
+.azi_keisatukare-hukidasi2{
+    position: absolute;
+    bottom: 170px;
+    left: 160px;
+}
+
+.azi_keisatukare-jyagaimo img{
+    position: absolute;
+    top: 70px;
+    right: -45px;
+    width: 170px;
+    height: auto;
+    transform: rotate(-15deg);
+    overflow: hidden;
+}
+
+.azi_keisatukare-spoonfork img{
+    position: absolute;
+    bottom: 80px;
+    left: -20px;
+    width: 155px;
+    height: auto;
+    transform: rotate(0deg);
+    overflow: hidden;
+}
+
+.azi_keisatukare-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  z-index: 3;
+}
+
+.azi_keisatukare-modal:target{
+  display: flex;
+}
+
+.modal-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 500px;
+  max-height: 70%;
+  padding: 20px;
+  margin: auto;
+  overflow: scroll;
+  background-color: #FEFEFE;
+  border-radius: 5px;
+}
+
+/* 味の感想C */
+.azi_sensuikare-{
+    overflow: hidden;
+    position: relative;
+    background-color: #FFD876;
+    border-radius: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.azi_sensuikare- p{
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 630px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azi_sensuikare-txt1{
+    margin: 0 0 30px 0;
+}
+
+.azi_sensuikare-hukidasi1{
+    position: absolute;
+    top: 100px;
+    right: 160px;
+    transform: rotate(180deg);
+}
+
+.azi_sensuikare-hukidasi2{
+    position: absolute;
+    bottom: 170px;
+    left: 160px;
+}
+
+.azi_sensuikare-jyagaimo img{
+    position: absolute;
+    top: 70px;
+    right: -40px;
+    width: 170px;
+    height: auto;
+    transform: rotate(-15deg);
+    overflow: hidden;
+}
+
+.azi_sensuikare-ninzin img{
+    position: absolute;
+    bottom: 70px;
+    left: -40px;
+    width: 150px;
+    height: auto;
+    transform: rotate(10deg);
+    overflow: hidden;
+}
+
+.azi_sensuikare-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  z-index: 3;
+}
+
+.azi_sensuikare-modal:target{
+  display: flex;
+}
+
+.modal-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 500px;
+  max-height: 70%;
+  padding: 20px;
+  margin: auto;
+  overflow: scroll;
+  background-color: #FEFEFE;
+  border-radius: 5px;
+}
+
+/* 味の感想ばつボタン */
+.azi_modal-wrapper{
+    position: relative;
+}
+
+.azi_close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+}
+
+.dli-close-circle {
+  display: inline-block;
+  vertical-align: middle;
+  color: #824821;
+  background-color: #fff;
+  line-height: 1;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 3px solid currentColor;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.dli-close-circle > span {
+  width: 52%;
+  height: 3px;
+  background: currentColor;
+  border-radius: 0.1em;
+  position: relative;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.dli-close-circle > span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  transform: rotate(90deg);
+}
+
+.sugoroku{
+    position: relative;
+    margin: 0 auto;
+}
+
+.sugoroku_1{
+    background-image: url(../img/sugoroku_kyara.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 30px 0 0 0;
+}
+
+.logo_sugoroku img{
+    width: 550px;
+}
+
+.logo_sugoroku{
+    text-align: center;
+    padding: 200px 0 40px 0;
+}
+
+.sugoroku_txt p{
+    text-align: center;
+    padding: 0 0 40px 0;
+    line-height: 150%;
+}
+
+.sugoroku_2{
+    background-color: #FFFDE6;
+}
+
+.sugorokuban{
+    text-align: center;
+    position: relative;
+}
+
+.sugorokuban img{
+    width: 800px;
+    height: auto;
+}
+
+.sugoroku_decoration1{
+    position: absolute;
+    bottom: -120px;
+    left: 12%;
+}
+
+.sugoroku_decoration1 img{
+    width: 280px;
+    height: auto;
+}
+
+.sugoroku_decoration2{
+    position: absolute;
+    top: -190px;
+    right: 15%;
+}
+
+.sugoroku_decoration2 img{
+    width: 210px;
+    height: auto;
+}
+
+.btn_pdf{
+    background-image: url(../img/btn_download.png);
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+}
+
+.btn_pdf p{
+    color: #fff;
+    padding: 0 0 0 20px;
+}
+
+.asobikata_txt {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #cf1225;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 60px 0 30px 0;
+}
+
+.asobikata_txt::before,
+.asobikata_txt::after {
+  background-color: #cf1225;
+  content: "";
+  height: 5px;
+  width: 29%;
+}
+.asobikata_txt::before {
+  margin-right: 15px;
+}
+.asobikata_txt::after {
+  margin-left: 15px;
+}
+
+.asobikata dt{
+    margin: 0 0 5px 20%;
+    padding: 2px 0 2px 25px;
+}
+
+.asobikata1{
+    background-image: url(../img/icon_1.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+
+.asobikata2{
+    background-image: url(../img/icon_2.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+
+.asobikata3{
+    background-image: url(../img/icon_3.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+
+.asobikata dd{
+    padding: 0 0 30px 22%;
+    line-height: 150%;
+}
+
+.kyara-syoukai_txt{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #cf1225;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px 0 80px 0;
+}
+
+.kyara-syoukai_txt::before,
+.kyara-syoukai_txt::after {
+  background-color: #cf1225;
+  content: "";
+  height: 5px;
+  width: 25%;
+}
+.kyara-syoukai_txt::before {
+  margin-right: 15px;
+}
+.kyara-syoukai_txt::after {
+  margin-left: 15px;
+}
+
+.kyara-syoukai dl{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.kyara-syoukai dd{
+    width: 400px;
+    line-height: 150%;
+}
+
+.kyara-syoukai_ue{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 0 0 60px 0;
+}
+
+.kyara-syoukai_jyagaimo{
+    position: relative;
+}
+
+.kyara-syoukai_jyagaimo img{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.kyara-syoukai_jyagaimo dt{
+    padding: 100px 0 10px 0;
+}
+
+.kyara-syoukai_jyagaimo dd{
+    padding: 0 0 20px 0;
+}
+
+.kyara-syoukai_ninzin{
+    position: relative;
+}
+
+.kyara-syoukai_ninzin img{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.kyara-syoukai_ninzin dt{
+    padding: 100px 0 10px 0;
+}
+
+.kyara-syoukai_ninzin dd{
+    padding: 0 0 20px 0;
+}
+
+.kyara-syoukai_sita{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    padding: 0 0 60px 0;
+}
+
+.kyara-syoukai_tamanegi{
+    position: relative;
+}
+
+.kyara-syoukai_tamanegi img{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.kyara-syoukai_tamanegi dt{
+    padding: 100px 0 10px 0;
+}
+
+.kyara-syoukai_tamanegi dd{
+    padding: 0 0 20px 0;
+}
+
+.kyara-syoukai_spoonfork{
+    position: relative;
+}
+
+.kyara-syoukai_spoonfork img{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.kyara-syoukai_spoonfork dt{
+    padding: 100px 0 10px 0;
+}
+
+.kyara-syoukai_spoonfork dd{
+    padding: 0 0 20px 0;
+}
+
+.kaisyasetumei{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.kaisyasetumei_top_photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kaisyasetumei_hukidasi{
+    margin: 60px 0 30px 0;
+    position: relative;
+}
+
+.kaisyasetumei_hukidasi_yellow{
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.kaisyasetumei_hukidasi_txt1{
+    background-color: #FFD876;
+    width: 450px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70px;
+}
+
+.kaisyasetumei_hukidasi_txt1 p{
+    font-size: 20px;
+}
+
+.kaisyasetumei_top{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+}
+
+.kaisyasetumei_top_txt{
+    margin: 45px 0 0 85px;
+}
+
+.kaisyasetumei_top_txt2{
+    color: #cf1225;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 130px 0 10px 0;
+    line-height: 150%;
+}
+
+.kaisyasetumei_top_txt3{
+    color: #cf1225;
+    font-size: 18px;
+    margin: 0 0 25px 0;
+}
+
+.kaisyasetumei_top_txt4{
+    color: #cf1225;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.saigai{
+    display: flex;
+}
+
+.hizuke{
+    margin: 0 0 0 0;
+    background: linear-gradient(#FFD876 0%,#FFE8AE 70%,#FFFDE6 90%,#fff 100%);
+    width: 125px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nen{
+    color: #cf1225;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: -30%;
+    margin: 70px 0 0 0;
+}
+
+.hizuke1{
+    color: #cf1225;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 165px 0 0 0;
+}
+
+.hizuke2{
+    color: #cf1225;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 230px 0 0 0;
+}
+
+.hizuke3{
+    color: #cf1225;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 230px 0 0 0;
+}
+
+.saigai_nenpyou{
+    display: flex;
+    flex-direction: column;
+}
+
+.saigai1{
+    display: flex;
+    align-items: center;
+    background-color: #FFD876;
+    height: 200px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin: 90px 0 60px 0;
+}
+
+.saigai1_txt{
+    margin: 0 0 0 80px;
+    padding: 0 100px 0 0;
+}
+
+.saigai1_txt1{
+    color: #cf1225;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.saigai1_txt2{
+    line-height: 150%;
+}
+
+.saigai2{
+    display: flex;
+    align-items: center;
+    background-color: #FFD876;
+    height: 200px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin: 0 0 60px 0;
+}
+
+.saigai2 p{
+    margin: 0 0 0 80px;
+    line-height: 150%;
+}
+
+.saigai3{
+    display: flex;
+    align-items: center;
+    background-color: #FFD876;
+    height: 200px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    line-height: 150%;
+}
+
+.saigai3 p{
+    margin: 0 0 0 80px;
+}
+
+.kaisyasetumei_torikumi{
+    background-color: #FFFDE6;
+    width: 85%;
+    margin: 80px auto 40px auto;
+    padding: 0 0 40px 0;
+    border-radius: 20px;
+}
+
+.kaisyasetumei_torikumi dl{
+    color: #cf1225;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+
+.kaisyasetumei_torikumi_naiyou{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+.demaejyugyou{
+    width: 300px;
+    margin: 0 0 0 0;
+}
+
+.demaejyugyou dt{
+    margin: 20px 0 10px 0;
+}
+
+.demaejyugyou dd{
+    text-align: left;
+    line-height: 150%;
+}
+
+.ibentosyutten{
+    width: 300px;
+    padding: 0 0 0 0;
+}
+
+.ibentosyutten dt{
+    margin: 20px 0 20px 0;
+}
+
+.ibentosyutten dd{
+    text-align: left;
+    line-height: 150%;
+}
+
+.btn_kaisya_mottosiru{
+    color: #fff;
+    background-image: url(../img/btn_mottosiru.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 33px;
+    width: 423px;
+    height: 54px;
+    margin: 0 auto;
+    padding: 0 0 0 20px;
+}
+
+.torikumi_title{
+    color: #cf1225;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0 20px 0;
+}
+
+.sisetu{
+    display: flex;
+    justify-content: center;
+}
+
+.sisetu_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.sisetu_txt{
+    position: relative;
+    margin: 30px 0 0 100px;
+}
+
+.sisetu_txt img{
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.sisetu_txt1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 5px 25px;
+}
+
+.sisetu_txt2{
+    padding: 0 0 0 25px;
+}
+
+.sisetu ol{
+    margin: 50px 0 0 0px;
+    padding: 0;
+    counter-reset: li;
+}
+
+.sisetu ol li {
+    position: relative;
+    font-size: 18px;
+    padding: 20px 0 0 10%;
+}
+
+.sisetu ol li:not(:first-child) {
+    margin-top: 30px;
+}
+
+.sisetu ol li::before {
+    counter-increment: li;
+    content: counter(li);
+    position: absolute;
+    left: -20px;
+    top: 12px; /* 数字のY軸線上の位置を調整 */
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFE8AE;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+.taisaku{
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+.taisaku_txt1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.taisaku_txt2{
+    text-align: start;
+    margin: 3px 0 5px 0;
+}
+
+.taisaku_irasuto{
+    background-color: #FFFDE6;
+    padding: 30px 0;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.taisakuirasuto1{
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.taisakuirasuto1 p{
+    margin: 60px 0 0 0;
+}
+
+.taisakuirasuto1 img{
+    width: 250px;
+    margin: 20px 0 0 0;
+}
+
+.taisakuirasuto2{
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.taisakuirasuto2 p{
+    margin: 40px 0 0 0;
+    line-height: 150%;
+}
+
+.taisakuirasuto2 img{
+    width: 250px;
+    margin: 20px 0 0 0;
+}
+
+.taisakuirasuto3{
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.taisakuirasuto3 p{
+    margin: 60px 0 0 0;
+}
+
+.taisakuirasuto3 img{
+    width: 250px;
+    margin: 20px 0 0 0;
+}
+
+.taisakuirasuto4{
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.taisakuirasuto4 p{
+    margin: 40px 0 0 0;
+    line-height: 150%;
+}
+
+.taisakuirasuto4 img{
+    width: 250px;
+    margin: 20px 0 0 0;
+}
+
+.arrow2{
+    text-align: center;
+}
+
+.taisaku_txt3{
+    text-align: center;
+    font-size: 20px;
+    line-height: 120%;
+    line-height: 150%;
+}
+
+.otoiawase{
+    position: relative;
+}
+
+.otoiawase_irasuto_txt{
+    margin: 60px 200px 0 200px;
+}
+
+.otoiawase_irasuto_txt1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+
+.otoiawase_irasuto_txt1_1{
+    position: relative;
+    margin: 0 0 0 15%;
+}
+
+.otoiawase_irasuto_txt1_1 p{
+    padding: 15px 30px;
+    background-color: #FFD876;
+    border-radius: 25px;
+}
+
+.otoiawase_irasuto_txt_hukidasi1{
+    position: absolute;
+    top: 40px;
+    right: 40%;
+}
+
+.otoiawase_irasuto_txt1_2{
+    position: relative;
+    margin: 0 15% 0 0;
+}
+
+.otoiawase_irasuto_txt1_2 p{
+    padding: 15px 30px;
+    background-color: #FFD876;
+    border-radius: 25px;
+}
+
+.otoiawase_irasuto_txt_hukidasi2{
+    position: absolute;
+    top: 40px;
+    right: 65%;
+}
+
+.otoiawase_irasuto_txt2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+
+.otoiawase_irasuto_txt2_1{
+    padding: 15px 30px;
+    background-color: #FFD876;
+    border-radius: 25px;
+    position: relative;
+}
+
+.otoiawase_irasuto_txt_hukidasi3{
+    position: absolute;
+    top: 40px;
+    right: 50%;
+    transform: translate(50%,0);
+}
+
+.otoiawase_irasuto_txt2_2{
+    padding: 15px 30px;
+    background-color: #FFD876;
+    border-radius: 25px;
+    position: relative;
+}
+
+.otoiawase_irasuto_txt_hukidasi4{
+    position: absolute;
+    top: 40px;
+    right: 60%;
+}
+
+.otoiawase_irasuto_txt2_3{
+    padding: 15px 30px;
+    background-color: #FFD876;
+    border-radius: 25px;
+    position: relative;
+}
+
+.otoiawase_irasuto_txt_hukidasi5{
+    position: absolute;
+    top: 40px;
+    right: 20%;
+}
+
+.otoiawase_irasuto_txt3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD876;
+    border-radius: 25px;
+    width: 330px;
+    height: 52px;
+    margin: 0 0 30px 60%;
+    position: relative;
+}
+
+.otoiawase_irasuto_txt_hukidasi6{
+    position: absolute;
+    top: 40px;
+    right: 80%;
+}
+
+.otoiawase_txt{
+    position: relative;
+    background-color: #cf1225;
+    color: #fff;
+    margin: 130px 0 0 0;
+}
+
+.otoiawase_irasuto_jyagaimo{
+    position: absolute;
+    top: -140px;
+    right: 73%;
+    column-gap: 50px;
+}
+
+.otoiawase_irasuto_jyagaimo1{
+    position: relative;
+    z-index: -1;
+}
+
+.otoiawase_irasuto_te_jyagaimo{
+    display: flex;
+    position: absolute;
+    top: 130px;
+    right: 55px;
+    z-index: 10;
+}
+
+.otoiawase_irasuto_ninzin{
+    position: absolute;
+    top: -140px;
+    right: 53%;
+    column-gap: 50px;
+}
+
+.otoiawase_irasuto_ninzin1{
+    position: relative;
+    z-index: -1;
+}
+
+.otoiawase_irasuto_te_ninzin{
+    display: flex;
+    position: absolute;
+    top: 130px;
+    right: 65px;
+    z-index: 2;
+}
+
+.otoiawase_irasuto_tamanegi{
+    position: absolute;
+    top: -140px;
+    right: 33%;
+    column-gap: 50px;
+}
+
+.otoiawase_irasuto_tamanegi1{
+    position: relative;
+    z-index: -1;
+}
+
+.otoiawase_irasuto_te_tamanegi{
+    display: flex;
+    position: absolute;
+    top: 115px;
+    right: 12px;
+    z-index: 2;
+}
+
+.otoiawase_irasuto_spoonfork{
+    position: absolute;
+    top: -140px;
+    right: 11%;
+    column-gap: 50px;
+}
+
+.otoiawase_irasuto_spoonfork1{
+    position: relative;
+    z-index: -1;
+}
+
+.otoiawase_irasuto_te_spoonfork{
+    display: flex;
+    position: absolute;
+    top: 135px;
+    right: 70px;
+    z-index: 2;
+}
+
+.otoiawase_maintxt{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.otoiawase_naiyou{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 30px 0;
+}
+
+.otoiawase_phone{
+    text-align: center;
+    border-right: solid #fff 2px;
+    padding: 0 150px 0 60px;
+}
+
+.otoiawase_phone_txt1{
+    font-size: 20px;
+    padding: 50px 0 40px 0;
+}
+
+.otoiawase_phone_txt2{
+    font-size: 12px;
+    margin: 0 0 0 100px;
+}
+
+.otoiawase_phone_inner{
+    position: relative;
+    font-size: 32px;
+    padding: 0 0 50px 0;
+}
+
+.otoiawase_phone_inner::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -30px;
+    background: url(../img/icon_phone.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.otoiawase_phone_number{
+    display: contents;
+    pointer-events: none;
+}
+
+.otoiawase_web{
+    text-align: center;
+    padding: 0 0 0 150px;
+}
+
+.otoiawase_web_txt1{
+    font-size: 20px;
+    padding: 50px 0 40px 0;
+}
+
+.otoiawase_web_btn p{
+    color: #cf1225;
+    background-image: url(../img/btn_web.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: 291px;
+    height: 56px;
+    padding: 0 25px 0 0;
+}
+
+.rink{
+    background-color: #FFD876;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+
+.rink_package img{
+    width: 150px;
+    margin: 0 60px;
+}
+
+.rink p{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px 0 20px 0;
+}
+
+.rink a{
+    font-size: 14px;
+    color: #fff;
+}
+
+.rink_syoubou{
+    text-align: center;
+    position: relative;
+}
+
+.rink_syoubou p{
+    color: #cf1225;
+}
+
+.rink_syoubou a{
+    background-color: #cf1225;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.rink_syouboukare- img{
+    width: 170px;
+    position: absolute;
+    top: 85px;
+    left: -50px;
+}
+
+.rink_keisatu{
+    text-align: center;
+    position: relative;
+}
+
+.rink_keisatu p{
+    color: #0053C5;
+}
+
+.rink_keisatu a{
+    background-color: #0053C5;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.rink_keisatukare- img{
+    width: 165px;
+    position: absolute;
+    top: 90px;
+    left: -35px;
+}
+
+.rink_sensui{
+    text-align: center;
+    position: relative;
+}
+
+.rink_sensui p{
+    color: #22A8E1;
+}
+
+.rink_sensui a{
+    background-color: #22A8E1;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.rink_sensuikare- img{
+    width: 180px;
+    position: absolute;
+    top: 85px;
+    left: -35px;
+}
+
+footer{
+    padding: 0 200px;
+    background-image: url(../img/footer_background.png);
+}
+
+.footer_kaisya2_1{
+    padding: 0 0 10px 0;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+    padding: 40px 0 20px 0;
+}
+
+.footer_logo_kaisya img{
+    width: 85px;
+    height: auto;
+}
+
+.footer_logo_catchcopy_kaisya img{
+    width: 260px;
+    height: auto;
+}
+
+.footer_kaisya2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_kaisya_txt{
+    padding: 0 0 10px 0;
+}
+
+.footer_copyright p{
+    font-size: 12px;
+}
+
+.footer_sns{
+    display: flex;
+    column-gap: 30px;
+    margin: 40px 10px 0 0;
+    justify-content: flex-end;
+}
+
+.footer_sns img{
+    padding: 5px 0;
+}
+
+.footer_sns_instagram1{
+    border-left: solid 1px black;
+    padding: 0 0 0 30px;
+}
+
+.footer_sns_instagram2{
+    border-left: solid 1px black;
+    padding: 0 0 0 30px;
+}
+
+.footer_sns_txt{
+    display: flex;
+    font-size: 14px;
+    padding: 5px 0 0 69px;
+    column-gap: 39px;
+    justify-content: flex-end;
+}
+
+.footer_kaisya2_2_btn{
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.footer_kaisya2_2_btn1{
+    color: #fff;
+    background-image: url(../img/btn_kousikiHP.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 55px;
+    padding: 0 25px 0 0;
+}
+
+.footer_kaisya2_2_btn2{
+    color: #fff;
+    background-image: url(../img/btn_onlineshop.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 55px;
+    padding: 0 40px 0 0;
+}
